@@ -7,11 +7,11 @@
 
 **Summarizing numerical data:**
 .agg([*functions in here*])--use multiple functions
-.median(),.mode()
-.min(),.max()
-.var(),.std()
-.sum()
-.quantile()
+.median(),.mode() 
+.min(),.max() 
+.var(),.std() 
+.sum() 
+.quantile() 
 
 ---
 
