@@ -36,7 +36,7 @@ unique_dogs["breed"].value_counts(sort=True, normalize=True)
 
 dogs.groupby(["color", "breed"])["weight_kg"].agg([min, max, sum])
 
-import numpy as np
+import numpy as np  
 dogs.pivot_table(values="weight_kg", index="color", columns="breed", fill_value=0, margins=True, aggfunc=np.median)
 
 dogs_ind3.loc[["Labrador", "Chihuahua"]]
@@ -51,9 +51,9 @@ dogs_srt.loc[:, "name":"height_cm"]--- slicing columns
 ---
 
 ***Index***
-dogs_ind = dogs.set_index("name")
-dogs_ind.reset_index(drop=True/False)
-dogs_ind3.sort_index(level=["color", "breed"], ascending=[True, False])
+dogs_ind = dogs.set_index("name")  
+dogs_ind.reset_index(drop=True/False)  
+dogs_ind3.sort_index(level=["color", "breed"], ascending=[True, False])  
 
 ---
 
