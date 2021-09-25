@@ -1,11 +1,11 @@
 # Data Science Cheet Sheet
 
 ----
-## Pandas
+## Pandas  
 
 ---
 
-**Summarizing numerical data:**
+**Summarizing numerical data:**  
 .agg([*functions in here*])--use multiple functions
 .median(),.mode()  
 .min(),.max()  
@@ -50,7 +50,7 @@ dogs_srt.loc[:, "name":"height_cm"]--- slicing columns
 
 ---
 
-***Index***
+***Index***  
 dogs_ind = dogs.set_index("name")  
 dogs_ind.reset_index(drop=True/False)  
 dogs_ind3.sort_index(level=["color", "breed"], ascending=[True, False])  
