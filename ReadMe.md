@@ -24,7 +24,8 @@ dogs.shape --- width and height of the chart
 dogs.sort_values("weight_kg"", ascending=(True/false))  
 dogs.sort_values(["weight_kg", "height_cm"], ascending=[True, False])
 
-dogs["name"]
+dogs["name"]  
+dogs[["name","age"]]
 
 new_dogs=dogs[dogs["name"]]
 
