@@ -21,7 +21,7 @@ dogs.head() --- 5 top lines
 
 dogs.shape --- width and height of the chart
 
-dogs.sort_values("weight_kg"", ascending=(True/false))
+dogs.sort_values("weight_kg"", ascending=(True/false))  
 dogs.sort_values(["weight_kg", "height_cm"], ascending=[True, False])
 
 dogs["name"]
@@ -41,7 +41,7 @@ dogs.pivot_table(values="weight_kg", index="color", columns="breed", fill_value=
 
 dogs_ind3.loc[["Labrador", "Chihuahua"]]
 
-dogs_srt.loc["Chow Chow":"Poodle"] --- outer index
+dogs_srt.loc["Chow Chow":"Poodle"] --- outer index  
 dogs_srt.loc[("Labrador", "Brown"):("Schnauzer", "Grey")] --- inner index
 
 dogs_srt.loc[:, "name":"height_cm"]--- slicing columns
